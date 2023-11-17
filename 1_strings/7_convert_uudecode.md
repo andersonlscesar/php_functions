@@ -1,4 +1,7 @@
 # convert_uudecode()
 
+A função convert_uudecode() recebe uma string codificada com uuencode como parâmetro e retorna a string decodificada. A string decodificada será o mesmo tamanho da string original, menos os caracteres de início e fim, que são necessários para identificar o início e o fim de um arquivo uuencoded.
 
-A função convert_uudecode em PHP é usada para decodificar uma string codificada no formato UUEncode. O UUEncode é um método de codificação de dados binários em texto ASCII, geralmente usado para enviar arquivos binários em mensagens de e-mail.
+~~~ php
+convert_uudecode(string $string): string|false
+~~~
