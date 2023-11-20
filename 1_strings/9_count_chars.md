@@ -1,0 +1,2 @@
+# Função count_chars()
+
